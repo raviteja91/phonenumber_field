@@ -1,0 +1,105 @@
+# Realto
+src
+*.pid
+*.orig
+/web/uploads
+/static
+/data
+/log
+sitemap*.xml
+/templates/base.html
+/templates/base_no_counters.html
+/dump.rdb
+/common_static/node_modules
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Linux
+.*
+!.gitignore
+*~
+
+# Mercurial
+/.hg/*
+*/.hg/*
+.hgignore
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# SublimeText project files
+*.sublime-workspace
+
+# Vim
+.*.sw[a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# Django
+*.log
+*.pot
+settings_local.py
+
+# Python
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+# Commented due to lib application
+# lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
