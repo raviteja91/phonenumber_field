@@ -79,7 +79,7 @@ class PhonePrefixSelect(Select):
             'all': ('country-dropdown/css/msdropdown/dd.css', 'country-dropdown/css/msdropdown/flags.css')
         }
         js = ('country-dropdown/js/jquery/jquery-1.8.2.min.js',
-              'country-dropdown/js/msdropdown/jquery.dd.min.js',
+              'country-dropdown/js/msdropdown/jquery.dd.js',
               'country-dropdown/js/msdropdown/ready.js')
 
 
